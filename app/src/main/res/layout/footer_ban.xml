@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dip"
+    android:layout_marginTop="10dip"
+    android:layout_marginBottom="10dip"
+    android:id="@+id/footerBan"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:background="@drawable/round_buttons"
+        android:gravity="center"
+        android:text="Reset"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

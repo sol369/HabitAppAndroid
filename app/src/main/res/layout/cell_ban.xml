@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="170dip"
+    android:padding="6dip" >
+
+
+    <RelativeLayout
+        android:id="@+id/viewBackground"
+        android:background="@color/hbRed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/deleteButton"
+            android:layout_width="90dip"
+            android:background="@android:color/transparent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dip"
+            android:text="Delete"
+            android:textSize="15sp"
+            android:textColor="@color/hbWhite"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/viewForeground"
+        android:background="@color/hbWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/banTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_toLeftOf="@id/submitLabel"
+            android:layout_toStartOf="@id/submitLabel"
+            android:gravity="center_vertical"
+            android:text="Example application"
+            android:textColor="@color/hbBlack"
+            android:background="@android:color/transparent"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:autoSizeTextType="uniform"
+            android:textSize="27sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/submitButton"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/round_buttons"
+            android:text="S"
+            android:textSize="34sp"
+            android:textColor="@color/hbWhite"
+            />
+
+
+        <TextView
+            android:id="@+id/submitLabel"
+            android:layout_width="70dip"
+            android:layout_height="60dip"
+            android:layout_marginTop="15dip"
+            android:layout_toLeftOf="@id/submitButton"
+            android:layout_toStartOf="@id/submitButton"
+            android:gravity="center"
+            android:text="1000"
+            android:textColor="@color/hbBlack"
+            android:textStyle="bold"
+            android:textSize="26sp" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/resistButton"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dip"
+            android:background="@drawable/round_buttons"
+            android:text="R"
+            android:textSize="34sp"
+            android:textColor="@color/hbWhite"
+            />
+
+
+        <TextView
+            android:id="@+id/resistLabel"
+            android:layout_width="70dip"
+            android:layout_height="60dip"
+            android:layout_toLeftOf="@id/resistButton"
+            android:layout_toStartOf="@id/resistButton"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dip"
+            android:gravity="center"
+            android:text="1000"
+            android:textColor="@color/hbBlack"
+            android:textStyle="bold"
+            android:textSize="26sp" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

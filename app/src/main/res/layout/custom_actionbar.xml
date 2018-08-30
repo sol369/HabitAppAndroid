@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_actionbar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:enabled="false"
+    android:orientation="horizontal"
+    android:paddingLeft="8dip"
+    android:paddingStart="8dip"
+    android:paddingRight="8dip"
+    android:paddingEnd="8dip" >
+
+    <Button
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:id="@+id/helpButton"
+        android:background="@drawable/help_icon"
+        />
+
+    <Button
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:id="@+id/addButton"
+        android:background="@drawable/add_icon"
+        />
+
+</RelativeLayout>

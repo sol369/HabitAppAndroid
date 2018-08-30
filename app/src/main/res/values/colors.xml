@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4674C1</color>
+    //<color name="colorPrimaryDark">#4674C1</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="hbBlue">#4674C1</color>
+    <color name="hbWhite">#FFFFFF</color>
+    <color name="hbBlack">#000000</color>
+    <color name="hbRed">#FF0000</color>
+
+
+</resources>
